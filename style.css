@@ -1,0 +1,64 @@
+/* Add these styles to style.css */
+
+body {
+    background-color: #f7e1d5; /* Light peach background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    background-color: #fce8d7; /* Cream calculator background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 320px; /* Medium-sized calculator */
+}
+
+.display {
+    border: 1px solid #dfbbac; /* Light peach display border */
+    background-color: #f7e1d5; /* Light peach display background */
+    color: #333; /* Dark gray display text color */
+    font-size: 28px; /* Increase font size for a larger display */
+    padding: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Add border-radius to make the display rounded */
+    text-align: right; /* Align the display text to the right */
+    font-family: Arial, sans-serif; /* Choose a suitable font */
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    flex: 1;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark gray button text color */
+    background-color: #fce8d7; /* Cream button background */
+    padding: 30px;
+    margin-right: 10px;
+}
+
+button:last-child {
+    margin-right: 0;
+}
+
+button:hover {
+    background-color: #dfbbac; /* Light peach button background on hover */
+    color: #fff; /* White button text color on hover */
+}
+
+/* styles made by gpt-4*/
